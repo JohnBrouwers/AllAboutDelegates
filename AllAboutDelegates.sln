@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASimpleClickEvent", "ASimpleClickEvent\ASimpleClickEvent.csproj", "{B6D2379A-E648-453D-9F0D-D2765781DB5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesAreUsedInSamples", "DelegatesAreUsedInSamples\DelegatesAreUsedInSamples.csproj", "{19E93C77-73DF-4B78-9503-C1FA0BCCD278}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1) Events are based on delegates", "1) Events are based on delegates", "{CB9DC4AF-5E70-4299-9AED-8CDCE8FEA575}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2) Delegates extend objects", "2) Delegates extend objects", "{856C0D32-CC41-43FF-93A4-2CFF98D762DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3) Other delegate usages", "3) Other delegate usages", "{2AA15B01-1264-4306-95E5-D2B5C33ADCF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatedGarageService", "DelegatedGarageService\DelegatedGarageService.csproj", "{B6441CF4-8B94-4600-AFF5-069B44B5C87D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Continued Reading", "Continued Reading", "{32FCA134-7898-458B-809D-395201943AC1}"
+	ProjectSection(SolutionItems) = preProject
+		LinksToContinuedReading.txt = LinksToContinuedReading.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6D2379A-E648-453D-9F0D-D2765781DB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D2379A-E648-453D-9F0D-D2765781DB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D2379A-E648-453D-9F0D-D2765781DB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D2379A-E648-453D-9F0D-D2765781DB5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E93C77-73DF-4B78-9503-C1FA0BCCD278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E93C77-73DF-4B78-9503-C1FA0BCCD278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E93C77-73DF-4B78-9503-C1FA0BCCD278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E93C77-73DF-4B78-9503-C1FA0BCCD278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6441CF4-8B94-4600-AFF5-069B44B5C87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6441CF4-8B94-4600-AFF5-069B44B5C87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6441CF4-8B94-4600-AFF5-069B44B5C87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6441CF4-8B94-4600-AFF5-069B44B5C87D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6D2379A-E648-453D-9F0D-D2765781DB5D} = {CB9DC4AF-5E70-4299-9AED-8CDCE8FEA575}
+		{19E93C77-73DF-4B78-9503-C1FA0BCCD278} = {2AA15B01-1264-4306-95E5-D2B5C33ADCF3}
+		{B6441CF4-8B94-4600-AFF5-069B44B5C87D} = {856C0D32-CC41-43FF-93A4-2CFF98D762DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5032E92C-DF37-46BE-93E3-16FA55DF08C3}
+	EndGlobalSection
+EndGlobal
